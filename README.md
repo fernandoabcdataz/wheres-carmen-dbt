@@ -319,6 +319,8 @@ dbt run
 ```
 
 ### 11. Data Lineage
-
-
+```bash
+dbt docs generate
+dbt docs serve
+```
 
