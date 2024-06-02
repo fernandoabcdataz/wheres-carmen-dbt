@@ -318,12 +318,18 @@ from
 
 ### 10. Running Entire Project
 ```bash
+dbt dep
+dbt seeds
 dbt run
 ```
+
+![ERD Mart](/assets/dbt-run.png)
 
 ### 11. Data Lineage
 ```bash
 dbt docs generate
 dbt docs serve
 ```
+
+![ERD Mart](/assets/dbt-dag.png)
 
