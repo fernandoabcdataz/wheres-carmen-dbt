@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: carmen_sightings
+    database: carmen
+    schema: raw_data
+    tables:
+      - name: africa
+      - name: america
+      - name: asia
+      - name: atlantic
+      - name: australia
+      - name: europe
+      - name: indian
+      - name: pacific
