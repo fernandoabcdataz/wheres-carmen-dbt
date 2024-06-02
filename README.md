@@ -333,3 +333,12 @@ dbt docs serve
 
 ![ERD Mart](/assets/dbt-dag.png)
 
+
+# ANSWERS
+## 1. ![ERD Mart](/assets/answer1.png)
+
+## 2. ![ERD Mart](/assets/answer2.png)
+
+## 3. ![ERD Mart](/assets/answer3.png)
+
+## 4. ![ERD Mart](/assets/answer4.png)
