@@ -156,6 +156,9 @@ with africa as (
 select * from africa
 ```
 
+![ERD Mart](/assets/mart-erd.png)
+
+
 ### 7. Create Global Staging Model
 **Global Staging Model**:
 - Created a union of all different regions into a single global view.
