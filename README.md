@@ -156,8 +156,6 @@ with africa as (
 select * from africa
 ```
 
-![ERD Mart](/assets/mart-erd.png)
-
 
 ### 7. Create Global Staging Model
 **Global Staging Model**:
@@ -205,7 +203,10 @@ from {{ ref('stg_pacific') }}
 
 ### 8. Create Mart Models
 **Dimension and Fact Tables**:
+![ERD Mart](/assets/mart-erd.png)
+
 - Followed 3NF to create dimension tables and a fact table.
+- To create DIM_DATE, I used the dbt_date package: https://hub.getdbt.com/calogica/dbt_date/latest/
 - Example for DIM_AGENT:
 ```sql
 {{
@@ -318,8 +319,8 @@ from
 
 ### 10. Running Entire Project
 ```bash
-dbt dep
-dbt seeds
+dbt deps
+dbt seed
 dbt run
 ```
 
