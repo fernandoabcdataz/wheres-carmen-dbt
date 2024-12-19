@@ -9,8 +9,7 @@ This project focuses on analyzing Carmen Sandiego sightings using a Snowflake en
 **Sign Up for a Trial Account**: Created a trial Snowflake account by accessing the [Snowflake Trial Signup Page](https://signup.snowflake.com/).  
 **Access Snowflake**
 **URL:** https://oqb18093.us-east-1.snowflakecomputing.com
-**USER:** TRADEME
-**PASS:** TradeMe123
+
 
 
 ### 2. Set Up Database and Schemas in Snowflake
